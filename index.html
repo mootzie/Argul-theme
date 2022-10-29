@@ -35,6 +35,7 @@
     <link href="assets/css/helper.css" rel="stylesheet" />
     <link href="assets/css/shop.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/custom.css" rel="stylesheet" />
     <link href="assets/css/unit-test.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <!-- ========== End Stylesheet ========== -->
@@ -55,6 +56,7 @@
 
     <!-- Header 
     ============================================= -->
+  
     <header>
       <!-- Start Navigation -->
       <nav
@@ -77,7 +79,7 @@
         <!-- End Top Search -->
 
         <div
-          class="container-full d-flex justify-content-between align-items-center"
+          class="container d-flex justify-content-between align-items-center"
         >
           <!-- Start Header Navigation -->
           <div class="navbar-header">
@@ -95,258 +97,102 @@
           </div>
           <!-- End Header Navigation -->
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbar-menu">
-            <img src="assets/img/logo.png" alt="Logo" />
-            <button
-              type="button"
-              class="navbar-toggle"
-              data-toggle="collapse"
-              data-target="#navbar-menu"
-            >
-              <i class="fa fa-times"></i>
-            </button>
+          <!-- Main Nav -->
+          <div class="main-nav-content">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+              <img src="assets/img/logo.png" alt="Logo" />
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#navbar-menu"
+              >
+                <i class="fa fa-times"></i>
+              </button>
 
-            <ul
-              class="nav navbar-nav navbar-right"
-              data-in="fadeInDown"
-              data-out="fadeOutUp"
-            >
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About</a></li>
-            <li><a href="index.html">Products</a></li>
-            <li><a href="services.html">Services</a></li>
-           
-
-              <!-- <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                  >Home</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="index.html">Agriculture</a></li>
-                  <li><a href="index-3.html">Farm Shop</a></li>
-                  <li>
-                    <a href="index-2.html">Seed Products & Crop Solutions</a>
-                  </li>
-                </ul>
-              </li> -->
-              <!-- <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                  >Pages</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="team.html">Team</a></li>
-                  <li><a href="team-details.html">Team Details</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
-                  <li><a href="faq.html">Faq</a></li>
-                  <li><a href="404.html">Error Page</a></li>
-                </ul>
-              </li> -->
-              <!-- <li class="dropdown">
-                <a
-                  href="project.html"
-                  class="dropdown-toggle"
-                  data-toggle="dropdown"
-                  >Projects</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="project.html">Project</a></li>
-                  <li><a href="project-details.html">Project Details</a></li>
-                </ul>
-              </li> -->
-              <!-- <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                  >Services</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="services.html">Services Version One</a></li>
-                  <li><a href="services-2.html">Services Version Two</a></li>
-                  <li><a href="services-details.html">Services Details</a></li>
-                </ul>
-              </li> -->
-              <!-- <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                  >Blog</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="blog-standard.html">Blog Standard</a></li>
-                  <li>
-                    <a href="blog-with-sidebar.html">Blog With Sidebar</a>
-                  </li>
-                  <li><a href="blog-2-colum.html">Blog Grid Two Colum</a></li>
-                  <li><a href="blog-3-colum.html">Blog Grid Three Colum</a></li>
-                  <li><a href="blog-single.html">Blog Single</a></li>
-                  <li>
-                    <a href="blog-single-with-sidebar.html"
-                      >Blog Single With Sidebar</a
-                    >
-                  </li>
-                </ul>
-              </li> -->
-              <!-- <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                  >Shop</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="shop.html">Shop</a></li>
-                  <li><a href="shop-single.html">Shop Single</a></li>
-                  <li>
-                    <a href="shop-single-thumb-only.html">Shop Single Two</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div> -->
-          <!-- /.navbar-collapse -->
-
-          <div class="attr-right">
-            <!-- Start Atribute Navigation -->
-            <!-- <div class="attr-nav">
-              <ul>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <i class="far fa-shopping-cart"></i>
-                    <span class="badge">3</span>
-                  </a>
-                  <ul class="dropdown-menu cart-list">
-                    <li>
-                      <div class="thumb">
-                        <a href="#" class="photo">
-                          <img src="assets/img/products/1.png" alt="Thumb" />
-                        </a>
-                        <a href="#" class="remove-product">
-                          <i class="fas fa-times"></i>
-                        </a>
-                      </div>
-                      <div class="info">
-                        <h6><a href="#">Delica omtantur </a></h6>
-                        <p>2x - <span class="price">$99.99</span></p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="thumb">
-                        <a href="#" class="photo">
-                          <img src="assets/img/products/2.png" alt="Thumb" />
-                        </a>
-                        <a href="#" class="remove-product">
-                          <i class="fas fa-times"></i>
-                        </a>
-                      </div>
-                      <div class="info">
-                        <h6><a href="#">Omnes ocurreret</a></h6>
-                        <p>1x - <span class="price">$33.33</span></p>
-                      </div>
-                    </li>
-                    <li class="total">
-                      <span class="pull-right"
-                        ><strong>Total</strong>: $0.00</span
-                      >
-                      <a href="#" class="btn btn-default btn-cart">Cart</a>
-                      <a href="#" class="btn btn-default btn-cart">Checkout</a>
-                    </li>
-                  </ul>
+              <ul
+                class="nav navbar-nav navbar-right"
+                data-in="fadeInDown"
+                data-out="fadeOutUp"
+              >
+                <!-- <li class="">
+                  <a href="index.html" class="dropdown-toggle" data-toggle="dropdown"
+                    >Home</a
+                  > -->
+                 
                 </li>
-                <li class="search">
-                  <a href="#"><i class="far fa-search"></i></a>
+                <li class="">
+                  <a href="#about" class="dropdown-toggle" data-toggle="dropdown"
+                    >About Us</a
+                  >
+            
                 </li>
-                <li class="side-menu">
-                  <a href="#">
-                    <span class="bar-1"></span>
-                    <span class="bar-2"></span>
-                    <span class="bar-3"></span>
-                  </a>
+                <li class="">
+                  <a
+                    href="#product"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    >Products</a
+                  >
+                  
+                </li>
+                <li class="">
+                  <a href="#service" class="dropdown-toggle" data-toggle="dropdown"
+                    >Services</a
+                  >
+                
+                </li>
+                <!-- <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                    >Blog</a
+                  > -->
+                
+                </li>
+                <li class="">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                    >Contact</a
+                  >
+                
                 </li>
               </ul>
-            </div> -->
-            <!-- End Atribute Navigation -->
+            </div>
+            <!-- /.navbar-collapse -->
 
-            <!-- Start Side Menu -->
-            <div class="side">
-              <a href="#" class="close-side"><i class="icon_close"></i></a>
-              <div class="widget">
-                <div class="logo">
-                  <img src="assets/img/logo-light.png" alt="Logo" />
-                </div>
-                <p>
-                  Arrived compass prepare an on as. Reasonable particular on my
-                  it in sympathize. Size now easy eat hand how. Unwilling he
-                  departure elsewhere dejection at. Heart large seems may purse
-                  means few blind.
-                </p>
-              </div>
-              <div class="widget address">
-                <div>
-                  <ul>
-                    <li>
-                      <div class="content">
-                        <p>Address</p>
-                        <strong>Fort Scott, KS</strong>
+            <div class="attr-right">
+              <!-- Start Atribute Navigation -->
+              <div class="attr-nav">
+                <ul>
+                  <li class="contact">
+                    <div class="call">
+                      <div class="icon">
+                        <i class="fas fa-comments-alt-dollar"></i>
                       </div>
-                    </li>
-                    <li>
-                      <div class="content">
-                        <p>Email</p>
-                        <strong>support@validtheme.com</strong>
+                      <div class="info">
+                        <p>Have any Questions?</p>
+                        <h5>
+                          <a href="tel:+19705083681"
+                            >9705083681</a
+                          >
+                        </h5>
                       </div>
-                    </li>
-                    <li>
-                      <div class="content">
-                        <p>Contact</p>
-                        <strong>+44-20-7328-4499</strong>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="widget newsletter">
-                <h4 class="title">Get Subscribed!</h4>
-                <form action="#">
-                  <div class="input-group stylish-input-group">
-                    <input
-                      type="email"
-                      placeholder="Enter your e-mail"
-                      class="form-control"
-                      name="email"
-                    />
-                    <span class="input-group-addon">
-                      <button type="submit">
-                        <i class="arrow_right"></i>
-                      </button>
-                    </span>
-                  </div>
-                </form>
-              </div>
-              <div class="widget social">
-                <ul class="link">
-                  <li>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
                   </li>
                 </ul>
               </div>
+              <!-- End Atribute Navigation -->
             </div>
-            <!-- End Side Menu -->
+
+            <!-- Overlay screen for menu -->
+            <div class="overlay-screen"></div>
+            <!-- End Overlay screen for menu -->
           </div>
           <!-- Main Nav -->
         </div>
-
-        <!-- Overlay screen for menu -->
-        <div class="overlay-screen"></div>
-        <!-- End Overlay screen for menu -->
       </nav>
       <!-- End Navigation -->
     </header>
     <!-- End Header -->
-
     <!-- Start Banner Area 
     ============================================= -->
     <div
@@ -362,16 +208,16 @@
               class="banner-thumb bg-cover shadow dark"
               style="background: url(https://images.unsplash.com/photo-1624745726502-019e7fd68150?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)"
             ></div>
-            <div class="container">
+            <div class="container hero-container">
               <div class="row align-center">
                 <div class="col-lg-10 offset-lg-1">
                   <div class="content">
-                    <h2>Grow more corn & soy</h2>
+                    <h2 id="">Grow more corn & soy</h2>
                     <div class="button">
                       <a
                         class="btn btn-theme secondary btn-md radius animation"
-                        href="about-us.html"
-                        >Discover More</a
+                        href="tel:+16202244697"
+                        >Call Now</a
                       >
                     </div>
                   </div>
@@ -382,12 +228,13 @@
           <!-- End Single Item -->
 
           <!-- Single Item -->
+          
           <div class="swiper-slide banner-style-three">
             <div
               class="banner-thumb bg-cover shadow dark"
               style="background: url(https://images.unsplash.com/reserve/22gQ9dqRziaAoZeBpZVY_kornmark-01.png?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80)"
             ></div>
-            <div class="container">
+            <div class="container hero-container">
               <div class="row align-center">
                 <div class="col-lg-10 offset-lg-1">
                   <div class="content">
@@ -395,8 +242,8 @@
                     <div class="button">
                       <a
                         class="btn btn-theme secondary btn-md radius animation"
-                        href="about-us.html"
-                        >Discover More</a
+                        href="tel:+16202244697"
+                        >Call Now</a
                       >
                     </div>
                   </div>
@@ -413,96 +260,89 @@
       </div>
     </div>
     <!-- End Main -->
-
-    <!-- Start Product Features 
+      <!-- Start About 
     ============================================= -->
-    <div class="product-feature-style-one-area overflow-hidden default-padding">
+    <div class="about-style-one-area default-padding">
+      <!-- Shape -->
+      <div class="shape-right-top">
+        <img src="assets/img/shape/leaf.png" alt="Image not found" />
+      </div>
+      <!-- End Shape -->
+      <a href="" id="about" class="anchor"></a>
       <div class="container">
         <div class="row align-center">
-          <div class="col-lg-5 mb-xs-50 mb-md-120">
-            <div class="product-feature-style-one">
-              <div class="info">
-                <h4 class="sub-title">Healthy Foods</h4>
-                <h2 class="title mb-25">
-                  Locally Sourced Feed <br />
-                  & Seed
-                </h2>
-                <p>
-                  Give lady of they such they sure it. Me contained explained my
-                  education. Vulgar as hearts by garret. Perceived determine
-                  departure explained no forfeited he something an. Contrasted
-                  dissimilar get joy you instrument out reasonably. Again keeps
-                  at no meant stuff. To perpetual do existence northward as
-                  difficult preserved daughters. Continued at up to zealously
-                  necessary breakfast. Surrounded sir motionless she end
-                  literature. Gay direction neglected .
-                </p>
-                <!-- Video for our story -->
-                <!-- <a
-                  href="https://www.youtube.com/watch?v=ZuzZXT3A1aQ"
-                  class="popup-youtube video-play-button with-text mt-15"
-                > -->
-                  <div class="effect"></div>
-                  <!-- <span><i class="fas fa-play"></i> OUR STORY</span> -->
-                </a>
-              </div>
+          <div
+            class="col-xl-5 col-lg-6 about-style-one pr-50 pr-md-15 pr-xs-15"
+          >
+            <div class="thumb">
+              <img src="assets/img/800x800.png" alt="Image Not Found" />
+              <!-- <div class="sub-item">
+                <img src="assets/img/1.jpg" alt="Image Not Found" />
+              </div> -->
             </div>
           </div>
-          <div class="col-lg-6 offset-lg-1">
-            <div
-              class="product-features-style-one pl-100 pl-md-15 pl-xs-15 pt-md-120"
-            >
-              <div class="organic-badge">
-                <img src="assets/img/illustration/badge.png" alt="Badge" />
+          <div id="about"class="col-xl-7 col-lg-6 about-style-one">
+            <div class="row align-center">
+              <div class="col-xl-7 col-lg-12">
+                <h2  class="heading">
+                  Innovative Seed Products
+                  & Crop Solutions
+                </h2>
+                <p>
+                  There are many variations of passages of ipsum available but
+                  the majority have suffered alteration in some form by injected
+                  humor or random word which don’t look even. Comparison new ham
+                  melancholy son themselves.
+                </p>
+                <ul class="check-solid-list mt-20">
+                  <li>Organic food contains more vitamins</li>
+                  <li>Eat organic because supply meets demand</li>
+                  <li>Organic food is never irradiated</li>
+                </ul>
               </div>
-              <div class="product-feature-item">
-                <div class="thumb">
-                  <img src="assets/img/thumb/pngwing.com (1).png" alt="Thumb" />
+              <div class="col-xl-5 col-lg-12 pl-50 pl-md-15 pl-xs-15">
+                <div class="top-product-item">
+                  <img src="assets/img/icon/feed.png" alt="Icon" />
+                  <h5><a href="#">Natural Feed</a></h5>
+                  <p>Resolve parties but trying she shewing of moment.</p>
                 </div>
-                <h4><a href="#">Grain Seed</a></h4>
-              </div>
-              <div class="product-feature-item">
-                <div class="thumb">
-                  <img src="assets/img/thumb/6.png" alt="Thumb" />
+                <div class="top-product-item">
+                  <img src="assets/img/icon/sprout.png" alt="Icon" />
+                  <h5><a href="#">Quality Seed</a></h5>
+                  <p>Our Locally sourced seed is brought from lorem ipsum.</p>
                 </div>
-                <h4><a href="#">Soybean Seed</a></h4>
-              </div>
-              <div class="product-feature-item">
-                <div class="thumb">
-                  <img src="assets/img/thumb/dog-food.png" alt="Thumb" />
-                </div>
-                <h4><a href="#">Dog Food</a></h4>
-              </div>
-              <div class="product-feature-item">
-                <div class="thumb">
-                  <img src="assets/img/product/9.png" alt="Thumb" />
-                </div>
-                <h4><a href="#">Vegetables</a></h4>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Product Features -->
+    <!-- End About -->
 
+
+    
+    
     <!-- Start Why Choose Us 
     ============================================= -->
     <div class="choose-us-style-two-area half-bg-light bg-gray default-padding">
       <div class="container">
+        
         <div class="row">
+          <a href="" id="product" class="anchor"></a>
           <div class="col-lg-5">
             <div class="choose-us-style-two">
               <img src="assets/img/780x898.png" alt="Thumb" />
-              <h3 class="title mt-30">Best Agriculture products</h3>
+              
+              <h3 class="title mt-30">Our Products:</h3>
               <div class="content">
                 <ul class="list-grid">
-                  <li>Garlic Farming</li>
-                  <li>Lavender Farming</li>
-                  <li>Gourmet Mushrooms</li>
+                  <li>Soybean Seed</li>
+                  <li>Whole-grain seed</li>
+                  <li>Gourmet Dog Food</li>
                   <li>Fertilizer Distribution</li>
                   <li>Poultry Farming</li>
                   <li>Organic Fertilizer</li>
+                  
                 </ul>
               </div>
             </div>
@@ -511,16 +351,16 @@
           <div class="col-lg-6 offset-lg-1 mt-80 mt-xs-0">
             <div class="choose-us-style-two">
               <h2 class="title mb-30 mt-xs-30">
-                Healthy life with <br />
-                fresh products
+                Locally Sourced <br />
+                
               </h2>
               <div class="fun-fact-style-one mb-50">
                 <div class="fun-fact">
                   <div class="counter">
-                    <div class="timer" data-to="250" data-speed="2000">250</div>
+                    <div class="timer" data-to="250" data-speed="2000">365</div>
                     <div class="operator">M</div>
                   </div>
-                  <span class="medium">Growth Tonns of Harvest</span>
+                  <span class="medium">Stat number to brag about</span>
                 </div>
                 <div class="fun-fact">
                   <div class="counter">
@@ -539,773 +379,105 @@
     </div>
     <!-- End Choose Us -->
 
-    <!-- Start Product 
+    
+
+   
+    <!-- Start Services 
     ============================================= -->
-    <div class="product-style-one-area default-padding-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2">
-            <div class="site-heading text-center">
-              <h5 class="sub-title">Customers’ Choice</h5>
-              <h2 class="title">Featured Products</h2>
-              <div class="devider"></div>
-            </div>
-          </div>
-        </div>
+    <div class="services-style-one-area default-padding bg-gray half-bg-theme">
+      <div class="shape-extra">
+        <img src="assets/img/shape/18.png" alt="Image Not Found" />
       </div>
       <div class="container">
+        <a href="" id="service" class="anchor"></a>
         <div class="row">
-          <ul class="vt-products text-center columns-4">
-            <!-- Single product -->
-            <li class="product">
-              <div class="product-contents">
-                <div class="product-image">
-                  <a href="shop-single.html">
-                    <img src="assets/img/products/1.png" alt="Product" />
-                  </a>
-                  <div class="shop-action">
-                    <ul>
-                      <li class="cart">
-                        <a href="#"><span>Add to cart</span></a>
-                      </li>
-                      <li class="wishlist">
-                        <a href="#"><span>Add to wishlist</span></a>
-                      </li>
-                      <li class="quick-view">
-                        <a href="#"><span>Quick view</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="product-caption">
-                  <div class="product-tags">
-                    <a href="#">Crop</a>
-                    <a href="#">Organic</a>
-                  </div>
-                  <h4 class="product-title">
-                    <a href="shop-single.html">Strawberry</a>
-                  </h4>
-                  <div class="review-count">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <span>8 Review</span>
-                  </div>
-                  <div class="price">
-                    <span>$12.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- Single product -->
-
-            <!-- Single product -->
-            <li class="product">
-              <div class="product-contents">
-                <div class="product-image">
-                  <span class="onsale">Sale!</span>
-                  <a href="shop-single.html">
-                    <img src="assets/img/products/2.png" alt="Product" />
-                  </a>
-                  <div class="shop-action">
-                    <ul>
-                      <li class="cart">
-                        <a href="#"><span>Add to cart</span></a>
-                      </li>
-                      <li class="wishlist">
-                        <a href="#"><span>Add to wishlist</span></a>
-                      </li>
-                      <li class="quick-view">
-                        <a href="#"><span>Quick view</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="product-caption">
-                  <div class="product-tags">
-                    <a href="#">Vegetables</a>
-                    <a href="#">Winter</a>
-                  </div>
-                  <h4 class="product-title">
-                    <a href="shop-single.html">Organic Carrot</a>
-                  </h4>
-                  <div class="review-count">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <span>8 Review</span>
-                  </div>
-                  <div class="price">
-                    <span><del>$8.00</del></span>
-                    <span>$5.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- Single product -->
-
-            <!-- Single product -->
-            <li class="product">
-              <div class="product-contents">
-                <div class="product-image">
-                  <a href="shop-single.html">
-                    <img src="assets/img/products/3.png" alt="Product" />
-                  </a>
-                  <div class="shop-action">
-                    <ul>
-                      <li class="cart">
-                        <a href="#"><span>Add to cart</span></a>
-                      </li>
-                      <li class="wishlist">
-                        <a href="#"><span>Add to wishlist</span></a>
-                      </li>
-                      <li class="quick-view">
-                        <a href="#"><span>Quick view</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="product-caption">
-                  <div class="product-tags">
-                    <a href="#">Fruits</a>
-                    <a href="#">Juicy</a>
-                  </div>
-                  <h4 class="product-title">
-                    <a href="shop-single.html">Fresh Red Seedless</a>
-                  </h4>
-                  <div class="review-count">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <span>8 Review</span>
-                  </div>
-                  <div class="price">
-                    <span>$14.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- Single product -->
-
-            <!-- Single product -->
-            <li class="product">
-              <div class="product-contents">
-                <div class="product-image">
-                  <a href="shop-single.html">
-                    <img src="assets/img/products/4.png" alt="Product" />
-                  </a>
-                  <div class="shop-action">
-                    <ul>
-                      <li class="cart">
-                        <a href="#"><span>Add to cart</span></a>
-                      </li>
-                      <li class="wishlist">
-                        <a href="#"><span>Add to wishlist</span></a>
-                      </li>
-                      <li class="quick-view">
-                        <a href="#"><span>Quick view</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="product-caption">
-                  <div class="product-tags">
-                    <a href="#">Fruits</a>
-                    <a href="#">Juicy</a>
-                  </div>
-                  <h4 class="product-title">
-                    <a href="shop-single.html">Organic Sweet Corn</a>
-                  </h4>
-                  <div class="review-count">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <span>8 Review</span>
-                  </div>
-                  <div class="price">
-                    <span>$8.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- Single product -->
-
-            <!-- Single product -->
-            <li class="product">
-              <div class="product-contents">
-                <div class="product-image">
-                  <a href="shop-single.html">
-                    <img src="assets/img/products/5.png" alt="Product" />
-                  </a>
-                  <div class="shop-action">
-                    <ul>
-                      <li class="cart">
-                        <a href="#"><span>Add to cart</span></a>
-                      </li>
-                      <li class="wishlist">
-                        <a href="#"><span>Add to wishlist</span></a>
-                      </li>
-                      <li class="quick-view">
-                        <a href="#"><span>Quick view</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="product-caption">
-                  <div class="product-tags">
-                    <a href="#">Fish</a>
-                    <a href="#">Health</a>
-                  </div>
-                  <h4 class="product-title">
-                    <a href="shop-single.html">Fresh Fish</a>
-                  </h4>
-                  <div class="review-count">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <span>8 Review</span>
-                  </div>
-                  <div class="price">
-                    <span>$25.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- Single product -->
-
-            <!-- Single product -->
-            <li class="product">
-              <div class="product-contents">
-                <div class="product-image">
-                  <a href="shop-single.html">
-                    <img src="assets/img/products/6.png" alt="Product" />
-                  </a>
-                  <div class="shop-action">
-                    <ul>
-                      <li class="cart">
-                        <a href="#"><span>Add to cart</span></a>
-                      </li>
-                      <li class="wishlist">
-                        <a href="#"><span>Add to wishlist</span></a>
-                      </li>
-                      <li class="quick-view">
-                        <a href="#"><span>Quick view</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="product-caption">
-                  <div class="product-tags">
-                    <a href="#">Seasonal</a>
-                    <a href="#">Fruit</a>
-                  </div>
-                  <h4 class="product-title">
-                    <a href="shop-single.html">Fresh Bananah</a>
-                  </h4>
-                  <div class="review-count">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <span>8 Review</span>
-                  </div>
-                  <div class="price">
-                    <span><del>$18.00</del></span>
-                    <span>$13.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- Single product -->
-
-            <!-- Single product -->
-            <li class="product">
-              <div class="product-contents">
-                <div class="product-image">
-                  <a href="shop-single.html">
-                    <img src="assets/img/products/7.png" alt="Product" />
-                  </a>
-                  <div class="shop-action">
-                    <ul>
-                      <li class="cart">
-                        <a href="#"><span>Add to cart</span></a>
-                      </li>
-                      <li class="wishlist">
-                        <a href="#"><span>Add to wishlist</span></a>
-                      </li>
-                      <li class="quick-view">
-                        <a href="#"><span>Quick view</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="product-caption">
-                  <div class="product-tags">
-                    <a href="#">Seasonal</a>
-                    <a href="#">Vegetables</a>
-                  </div>
-                  <h4 class="product-title">
-                    <a href="shop-single.html">Organic Cucumber</a>
-                  </h4>
-                  <div class="review-count">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <span>8 Review</span>
-                  </div>
-                  <div class="price">
-                    <span>$3.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- Single product -->
-
-            <!-- Single product -->
-            <li class="product">
-              <div class="product-contents">
-                <div class="product-image">
-                  <a href="shop-single.html">
-                    <img src="assets/img/products/8.png" alt="Product" />
-                  </a>
-                  <div class="shop-action">
-                    <ul>
-                      <li class="cart">
-                        <a href="#"><span>Add to cart</span></a>
-                      </li>
-                      <li class="wishlist">
-                        <a href="#"><span>Add to wishlist</span></a>
-                      </li>
-                      <li class="quick-view">
-                        <a href="#"><span>Quick view</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="product-caption">
-                  <div class="product-tags">
-                    <a href="#">Vegetables</a>
-                    <a href="#">Fruit</a>
-                  </div>
-                  <h4 class="product-title">
-                    <a href="shop-single.html">Green Avocado</a>
-                  </h4>
-                  <div class="review-count">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <span>8 Review</span>
-                  </div>
-                  <div class="price">
-                    <span>$6.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- Single product -->
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- End Product -->
-
-    <!-- Start Shop Category
-    ============================================= -->
-    <!-- <div class="shop-category-area relative">
-      <!-- Slider main container 
-      <div class="product-offer-carousel">
-        <!-- Additional required wrapper 
-        <div class="swiper-wrapper">
-          <!-- Single Item 
-          <div class="swiper-slide">
-            <div
-              class="shop-category-style-one default-padding-top bg-cover"
-              style="background-image: url(assets/img/2440x1578.png)"
-            >
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-7">
-                    <div class="product-offer-item">
-                      <h4>Summer Offer</h4>
-                      <h2 class="mb-25"><a href="#">Seasonal Fruits</a></h2>
-                      <p>
-                        Sandperch flyingfish yellowfin cutthroat trout grouper
-                        whitebait horsefish bullhead shark California
-                        smoothtongue, striped burrfish threadtail saber-toothed
-                        blenny Red. Shortnose chimaera, carpetshark escolar.
-                      </p>
-                      <div class="counter-class" data-date="2025-3-24 23:59:59">
-                        <!-- Date Formate Input yyyy-mm-dd hh:mm:ss 
-                        <div class="item-list">
-                          <div class="counter-item">
-                            <div class="item">
-                              <h5><span class="counter-days"></span> Days</h5>
-                            </div>
-                          </div>
-                          <div class="counter-item">
-                            <div class="item">
-                              <h5><span class="counter-hours"></span> Hours</h5>
-                            </div>
-                          </div>
-                          <div class="counter-item">
-                            <div class="item">
-                              <h5>
-                                <span class="counter-minutes"></span> Minutes
-                              </h5>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <a
-                        class="btn btn-theme mt-15 btn-md radius animation"
-                        href="about-us.html"
-                        ><i class="fas fa-shopping-cart"></i> Purchase Now</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Single item 
-
-          <!-- Single Item 
-          <div class="swiper-slide">
-            <div
-              class="shop-category-style-one default-padding-top bg-cover"
-              style="background-image: url(assets/img/2440x1578.png)"
-            >
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-7">
-                    <div class="product-offer-item">
-                      <h4>Summer Offer</h4>
-                      <h2 class="mb-25"><a href="#">Organic Vegetables</a></h2>
-                      <p>
-                        Sandperch flyingfish yellowfin cutthroat trout grouper
-                        whitebait horsefish bullhead shark California
-                        smoothtongue, striped burrfish threadtail saber-toothed
-                        blenny Red. Shortnose chimaera, carpetshark escolar.
-                      </p>
-                      <div class="counter-class" data-date="2025-3-24 23:59:59">
-                        <!-- Date Formate Input yyyy-mm-dd hh:mm:ss 
-                        <div class="item-list">
-                          <div class="counter-item">
-                            <div class="item">
-                              <h5><span class="counter-days"></span> Days</h5>
-                            </div>
-                          </div>
-                          <div class="counter-item">
-                            <div class="item">
-                              <h5><span class="counter-hours"></span> Hours</h5>
-                            </div>
-                          </div>
-                          <div class="counter-item">
-                            <div class="item">
-                              <h5>
-                                <span class="counter-minutes"></span> Minutes
-                              </h5>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <a
-                        class="btn btn-theme mt-15 btn-md radius animation"
-                        href="about-us.html"
-                        ><i class="fas fa-shopping-cart"></i> Purchase Now</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Single item 
-
-          <!-- Single Item 
-          <div class="swiper-slide">
-            <div
-              class="shop-category-style-one default-padding-top bg-cover"
-              style="background-image: url(assets/img/2440x1578.png)"
-            >
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-7">
-                    <div class="product-offer-item">
-                      <h4>Summer Offer</h4>
-                      <h2 class="mb-25"><a href="#">Fresh & Testy Food</a></h2>
-                      <p>
-                        Sandperch flyingfish yellowfin cutthroat trout grouper
-                        whitebait horsefish bullhead shark California
-                        smoothtongue, striped burrfish threadtail saber-toothed
-                        blenny Red. Shortnose chimaera, carpetshark escolar.
-                      </p>
-                      <div class="counter-class" data-date="2025-3-24 23:5:59">
-                        <!-- Date Formate Input yyyy-mm-dd hh:mm:ss
-                        <div class="item-list">
-                          <div class="counter-item">
-                            <div class="item">
-                              <h5><span class="counter-days"></span> Days</h5>
-                            </div>
-                          </div>
-                          <div class="counter-item">
-                            <div class="item">
-                              <h5><span class="counter-hours"></span> Hours</h5>
-                            </div>
-                          </div>
-                          <div class="counter-item">
-                            <div class="item">
-                              <h5>
-                                <span class="counter-minutes"></span> Minutes
-                              </h5>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <a
-                        class="btn btn-theme mt-15 btn-md radius animation"
-                        href="about-us.html"
-                        ><i class="fas fa-shopping-cart"></i> Purchase Now</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Single item 
-        </div>
-
-        <!-- Pagination
-        <div class="product-offer-carousel-pagination"></div>
-      </div>
-    </div> -->
-    <!-- End Shop Category --->
-
-    <!-- Start Testimonials 
-    ============================================= -->
-    <div
-      class="testimonials-area default-padding bg-gray"
-      style="background-image: url(assets/img/shape/23.png)"
-    >
-      <div class="container">
-        <div class="row align-center">
-          <div class="col-lg-5">
-            <div class="testimonial-info text-center">
-              <h4>Testimonial</h4>
-              <div class="thumb">
-                <img src="assets/img/800x800.png" alt="Image Not Found" />
-                <img src="assets/img/800x800.png" alt="Image Not Found" />
-                <img src="assets/img/800x800.png" alt="Image Not Found" />
-                <img src="assets/img/800x800.png" alt="Image Not Found" />
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 offset-lg-1">
-            <div class="testimonial-carousel testimonial-style-one swiper">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Single item -->
-                <div class="swiper-slide">
-                  <div class="testimonial-style-two">
-                    <div class="item">
-                      <div class="content">
-                        <p>
-                          “Targetingconsultation discover apartments. ndulgence
-                          off under folly death wrote cause her way spite. Plan
-                          upon yet way get cold spot its week. Almost do am or
-                          limits hearts. Resolve parties but why she shewing.
-                          She sang know now always remembering to the point.”
-                        </p>
-                      </div>
-                      <div class="provider">
-                        <div class="info">
-                          <h4>Matthew J. Wyman</h4>
-                          <span>Farm Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single item -->
-                <!-- Single item -->
-                <div class="swiper-slide">
-                  <div class="testimonial-style-two">
-                    <div class="item">
-                      <div class="content">
-                        <p>
-                          “Consultation discover apartments. ndulgence off under
-                          folly death wrote cause her way spite. Plan upon yet
-                          way get cold spot its week. Almost do am or limits
-                          hearts. Resolve parties but why she shewing. She sang
-                          know now always remembering to the point.”
-                        </p>
-                      </div>
-                      <div class="provider">
-                        <div class="info">
-                          <h4>Anthom Bu Spar</h4>
-                          <span>Farmhand</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single item -->
-                <!-- Single item -->
-                <div class="swiper-slide">
-                  <div class="testimonial-style-two">
-                    <div class="item">
-                      <div class="content">
-                        <p>
-                          “Business discover apartments. ndulgence off under
-                          folly death wrote cause her way spite. Plan upon yet
-                          way get cold spot its week. Almost do am or limits
-                          hearts. Resolve parties but why she shewing. She sang
-                          know now always remembering to the point.”
-                        </p>
-                      </div>
-                      <div class="provider">
-                        <div class="info">
-                          <h4>Metho k. Partho</h4>
-                          <span>Buyer</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single item -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Testimonials -->
-
-    <!-- Start Gallery 
-    ============================================= -->
-    <div class="gallery-style-one-area default-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2">
-            <div class="site-heading text-center">
-              <h5 class="sub-title">Awesome Gallery</h5>
-              <h2 class="title">Gallery Of Our Products</h2>
-              <div class="devider"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container container-stage">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="carousel-stage-right carousel-style-one swiper">
+          <div class="col-lg-12">
+            <div class="services-style-one-carousel swiper">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
                 <!-- Single Item -->
+                
                 <div class="swiper-slide">
-                  <div class="gallery-style-one">
-                    <img src="assets/img/800x800.png" alt="Thumb" />
-                    <div class="overlay">
-                      <span>Fruit</span>
-                      <h4><a href="project-details.html">Healthy Food</a></h4>
+                  <div class="services-style-one">
+                    <div class="thumb">
+                      <img src="assets/img/thumb/soil-test.png" alt="Image Not Found" />
                     </div>
+                    <h5><a href="#">Soil Testing</a></h5>
+                    
+                    <p>
+                      Continue indulged speaking technical out horrible domestic
+                      position. Seeing rather you.
+                    </p>
                   </div>
                 </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
                 <div class="swiper-slide">
-                  <div class="gallery-style-one">
-                    <img src="assets/img/800x800.png" alt="Thumb" />
-                    <div class="overlay">
-                      <span>Organic</span>
-                      <h4><a href="project-details.html">Cow Milk</a></h4>
+                  <div class="services-style-one">
+                    <div class="thumb">
+                      <img src="assets/img/thumb/seed-treatment.png" alt="Image Not Found" />
                     </div>
+                    <h5><a href="#">Seed Treatment</a></h5>
+                    <p>
+                      Continue indulged speaking technical out horrible domestic
+                      position. Seeing rather you.
+                    </p>
                   </div>
                 </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
                 <div class="swiper-slide">
-                  <div class="gallery-style-one">
-                    <img src="assets/img/800x800.png" alt="Thumb" />
-                    <div class="overlay">
-                      <span>Vegetables</span>
-                      <h4>
-                        <a href="project-details.html">Organic Vegetables</a>
-                      </h4>
+                  <div class="services-style-one">
+                    <div class="thumb">
+                      <img src="assets/img/thumb/delivery.png" alt="Image Not Found" />
                     </div>
+                    <h5><a href="#">Delivery</a></h5>
+                    <p>
+                      Continue indulged speaking technical out horrible domestic
+                      position. Seeing rather you.
+                    </p>
                   </div>
                 </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
                 <div class="swiper-slide">
-                  <div class="gallery-style-one">
-                    <img src="assets/img/800x800.png" alt="Thumb" />
-                    <div class="overlay">
-                      <span>Cereals</span>
-                      <h4>
-                        <a href="project-details.html">Fresh Mandrains</a>
-                      </h4>
+                  <div class="services-style-one">
+                    <div class="thumb">
+                      <img src="assets/img/thumb/dog-food.png" alt="Image Not Found" />
                     </div>
+                    <h5><a href="#">Pet Food</a></h5>
+                    <p>
+                      Continue indulged speaking technical out horrible domestic
+                      position. Seeing rather you.
+                    </p>
                   </div>
                 </div>
                 <!-- End Single Item -->
-
                 <!-- Single Item -->
-                <div class="swiper-slide">
-                  <div class="gallery-style-one">
-                    <img src="assets/img/800x800.png" alt="Thumb" />
-                    <div class="overlay">
-                      <span>Havest</span>
-                      <h4>
-                        <a href="project-details.html">Crispy Cucumber</a>
-                      </h4>
+                <!-- <div class="swiper-slide">
+                  <div class="services-style-one">
+                    <div class="thumb">
+                      <img src="assets/img/thumb/6.png" alt="Image Not Found" />
                     </div>
+                    <h5><a href="#">Sweet Exotic Fruits</a></h5>
+                    <p>
+                      Continue indulged speaking technical out horrible domestic
+                      position. Seeing rather you.
+                    </p>
                   </div>
-                </div>
+                </div> -->
                 <!-- End Single Item -->
               </div>
-
-              <!-- Pagination -->
-              <div class="swiper-pagination"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Gallery -->
+    <!-- End Services -->
 
+   
+   
+   
     <!-- Start Contact Us 
     ============================================= -->
     <div
@@ -1370,7 +542,7 @@
                         class="form-control"
                         id="comments"
                         name="comments"
-                        placeholder="Tell Us About Project *"
+                        placeholder="Your Feedback Is Appreciated *"
                       ></textarea>
                     </div>
                   </div>
@@ -1419,7 +591,7 @@
                   </div>
                   <div class="content">
                     <h5 class="title">Call us</h5>
-                    <a href="">(620) 224-4697</a>
+                    <a href="tel:+16202244697">(620) 224-4697</a>
                   </div>
                 </li>
                 <li class="wow fadeInUp" data-wow-delay="300ms">
@@ -1560,94 +732,30 @@
             <!-- Single Itme -->
             <div class="col-lg-4 col-md-6 item">
               <div class="footer-item about">
-                <img class="logo" src="assets/img/logo-light.png" alt="Logo" />
+                <img class="logo" src="assets/img/logo.png" alt="Logo" />
                 <p>
                   Happen active county. Winding morning ambition shyness evident
                   to poor. Because elderly new to the point to main success.
                 </p>
                 <form action="#">
-                  <input
+                  <!-- <input
                     type="email"
                     placeholder="Your Email"
                     class="form-control"
                     name="email"
-                  />
-                  <button type="submit">Go</button>
+                  /> -->
+                  <!-- <button type="submit">Go</button> -->
                 </form>
               </div>
             </div>
             <!-- End Single Itme -->
 
             <!-- Single Itme -->
-            <div class="col-lg-2 col-md-6 item">
-              <div class="footer-item link">
-                <h4 class="widget-title">Explore</h4>
-                <ul>
-                  <li>
-                    <a href="about-us.html">About Us</a>
-                  </li>
-                  <li>
-                    <a href="team.html">Meet Our Team</a>
-                  </li>
-                  <li>
-                    <a href="blog-single-with-sidebar.html">News & Media</a>
-                  </li>
-                  <li>
-                    <a href="services.html">Services</a>
-                  </li>
-                  <li>
-                    <a href="contact-us.html">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="team-details.html">Volunteers</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            
             <!-- End Single Itme -->
 
             <!-- Single Itme -->
-            <div class="col-lg-3 col-md-6 item">
-              <div class="footer-item recent-post">
-                <h4 class="widget-title">Recent Posts</h4>
-                <ul>
-                  <li>
-                    <div class="thumb">
-                      <a href="blog-single-with-sidebar.html">
-                        <img src="assets/img/800x800.png" alt="Thumb" />
-                      </a>
-                    </div>
-                    <div class="info">
-                      <div class="meta-title">
-                        <span class="post-date">12 Sep, 2022</span>
-                      </div>
-                      <h5>
-                        <a href="blog-single-with-sidebar.html"
-                          >Meant widow equal an share least part.
-                        </a>
-                      </h5>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="thumb">
-                      <a href="blog-single-with-sidebar.html">
-                        <img src="assets/img/800x800.png" alt="Thumb" />
-                      </a>
-                    </div>
-                    <div class="info">
-                      <div class="meta-title">
-                        <span class="post-date">18 Jul, 2022</span>
-                      </div>
-                      <h5>
-                        <a href="blog-single-with-sidebar.html"
-                          >Future Plan & Strategy for Consutruction
-                        </a>
-                      </h5>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
+         
             <!-- End Single Itme -->
 
             <!-- Single Itme -->

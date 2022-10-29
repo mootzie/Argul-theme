@@ -1,0 +1,7 @@
+
+@media only screen and (max-width: 600px){
+    .hero-container {
+        min-height: 80vh;
+        padding-top:10vh;
+    }
+}
